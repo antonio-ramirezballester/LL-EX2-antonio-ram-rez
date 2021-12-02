@@ -1,0 +1,157 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    margin: auto;
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-between;
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+}
+
+.logo{
+    margin-left: 1rem;
+    width: 150;
+    cursor: pointer;
+}
+
+nav{
+    margin-top: 5px;
+    justify-content: space-between;
+    flex-grow: 0.8;
+    display: flex;
+}
+
+nav .enlaces{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .enlaces a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+nav .enlaces2 a{
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    margin: 0px 10px;
+    color: white;
+    font-size: 18px;
+}
+
+nav .enlaces2 a i{
+    color: rgb(0, 102, 255);
+    margin-right: 10px;
+}
+
+.main1{
+    background: url('../img/characters-hero-v3.jpg');
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.main1 div{
+    margin-top: 15vh;
+}
+
+.main1 .primero .titulos h1{
+    font-size: 80px;
+}
+
+.main1 .primero .titulos h2{
+    font-size: 60px;
+    margin-top: 50px;
+}
+
+.main1 .primero .botones{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.main1 .primero .botones p{
+    color: black;
+    background-color: cornflowerblue;
+    padding: 20px 30px;
+    clip-path: polygon(18% 0, 83% 0, 100% 30%, 100% 70%, 86% 100%, 13% 100%, 0% 70%, 0% 30%);
+}
+
+.main1 .primero .tiendas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.main1 .primero .tiendas section{
+    margin-top: 20px;
+}
+
+.main1 .primero .tiendas section img{
+    margin: 0 20px;
+}
+
+.main2{
+    background: url('../img/bg-univers.jpg');
+    background-position: center center;
+    height: 90vh;
+    width: 100%;
+}
+
+.main2 h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 20px 0;
+}
+
+.main2 .cards{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 10px;
+}
+
+.main2 .cards div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+}
+
+.main2 .cards div img{
+    width: 90%;
+}
+
+footer{
+    padding: 40px;
+    margin-top: 40vh;
+    background-color: rgb(59, 59, 59);
+    display: flex;
+}
+
+footer p{
+    width: 70%;
+    color: white;
+}
