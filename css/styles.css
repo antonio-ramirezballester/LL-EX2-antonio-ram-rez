@@ -76,11 +76,15 @@ nav .enlaces2 a i{
 
 .main1 .primero .titulos h1{
     font-size: 80px;
+    display: flex;
+    justify-content: center;
 }
 
 .main1 .primero .titulos h2{
     font-size: 60px;
     margin-top: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .main1 .primero .botones{
@@ -144,9 +148,30 @@ nav .enlaces2 a i{
     width: 90%;
 }
 
+.main3{
+    background: url('../img/bg-planet.jpg');
+    background-position: center center;
+    height: 70vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main3 img{
+    margin-left: 100px;
+}
+
+.main3 p{
+    color: black;
+    background-color: cornflowerblue;
+    padding: 20px 30px;
+    clip-path: polygon(18% 0, 83% 0, 100% 30%, 100% 70%, 86% 100%, 13% 100%, 0% 70%, 0% 30%);
+    font-weight: bolder;
+}
+
 footer{
     padding: 40px;
-    margin-top: 40vh;
     background-color: rgb(59, 59, 59);
     display: flex;
 }
